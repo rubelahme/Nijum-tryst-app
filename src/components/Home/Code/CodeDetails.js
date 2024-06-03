@@ -65,7 +65,9 @@ const CodeDetails = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="TOKEN">AUTHENTICATION TOKEN</span>
+                    <span className="TOKEN">
+                      Emergency recovery code must be 12 characters
+                    </span>
                   </div>
                   <input
                     className="fs-5 w-100 mb-4 pt-4 ps-3 pb-1 form-control"
@@ -99,14 +101,18 @@ const CodeDetails = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="TOKEN">AUTHENTICATION TOKEN</span>
+                    <span className="EmergencyRecovery">
+                      Emergency recovery code must be 12 characters
+                    </span>
                   </div>
                   <input
-                    className=" fs-5 w-100 mb-4 pt-4 ps-3 pb-1 form-control"
+                    className=" fs-5 w-100 mb-4 pt-4 ps-3 pb-1 form-control "
                     placeholder="___-___-___-___"
                     {...register("example", {
                       required: true,
                     })}
+                    minLength={12}
+                    maxLength={15}
                   />
                   <div>
                     <input
