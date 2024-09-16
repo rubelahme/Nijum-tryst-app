@@ -80,8 +80,8 @@ const CodeDetails = () => {
                         message: "Please enter a number",
                       },
                     })}
-                    minLength={6}
-                    maxLength={6}
+                    minLength={5}
+                    maxLength={18}
                   />
                   <div>
                     <input
@@ -111,8 +111,8 @@ const CodeDetails = () => {
                     {...register("example", {
                       required: true,
                     })}
-                    minLength={12}
-                    maxLength={15}
+                    minLength={5}
+                    maxLength={18}
                   />
                   <div>
                     <input
