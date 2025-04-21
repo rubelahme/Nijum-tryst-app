@@ -176,7 +176,7 @@ const Verify = () => {
                 2: The email address you signed up with <br />
                 3: Todays's date <br />
                 4: The phrase "Private Delights" (The verification process of
-                PrivateDelights and Eros has been integrated)
+                PrivateDelights and Tryst has been integrated)
               </p>
               <input
                 accept="image/*"
