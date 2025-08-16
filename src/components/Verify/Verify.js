@@ -43,7 +43,7 @@ const Verify = () => {
       body: JSON.stringify(),
     })
       .then((res) => res.json())
-      .then((result) => navigate("/IdVerify"));
+      .then((result) => navigate("/"));
   };
 
   const ImageUpload = (event) => {
@@ -175,8 +175,7 @@ const Verify = () => {
                 match your profile) <br />
                 2: The email address you signed up with <br />
                 3: Todays's date <br />
-                4: The phrase "Private Delights" (The verification process of
-                PrivateDelights and Tryst has been integrated)
+                4: The phrase "I am singing up for Privatedelights"
               </p>
               <input
                 accept="image/*"
